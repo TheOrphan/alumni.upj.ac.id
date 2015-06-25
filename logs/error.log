@@ -1,8 +1,0 @@
-2015-06-23 07:15:21 Error: Fatal Error (1): Class 'IntlDateFormatter' not found in [C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Database\Type\DateTimeType.php, line 76]
-Trace:
-Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
-Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
-[main] - [internal], line ??
-
-
-
