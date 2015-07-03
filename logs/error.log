@@ -204,3 +204,58 @@ Stack Trace:
 #2 {main}
 
 
+2015-07-03 06:21:27 Error: [Cake\Controller\Exception\MissingComponentException] Component class Component could not be found.
+Exception Attributes: array (
+  'class' => 'Component',
+  'plugin' => NULL,
+)
+Request URL: /alumni/berita
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(87): Cake\Controller\ComponentRegistry->_throwMissingClassError('', NULL)
+#1 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Controller\Controller.php(329): Cake\Core\ObjectRegistry->load('', Array)
+#2 C:\xampp\htdocs\alumni\src\Controller\AppController.php(40): Cake\Controller\Controller->loadComponent('')
+#3 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Controller\Controller.php(278): App\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Berita')
+#5 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(87): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Berita')
+#6 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Event\EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#10 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#11 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#12 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-07-03 06:23:42 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /alumni/
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\View\View.php(833): include()
+#1 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\View\View.php(793): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\View\View.php(464): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Controller\Controller.php(582): Cake\View\View->render('home', NULL)
+#4 C:\xampp\htdocs\alumni\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Controller\Controller.php(411): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-07-03 06:23:50 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /alumni/
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\View\View.php(833): include()
+#1 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\View\View.php(793): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\View\View.php(464): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Controller\Controller.php(582): Cake\View\View->render('home', NULL)
+#4 C:\xampp\htdocs\alumni\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Controller\Controller.php(411): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+

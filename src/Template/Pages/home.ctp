@@ -136,7 +136,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
           </div><!-- /.container-fluid -->
         </nav>
     </header>
-    <div id="content">
+    <div class="container" id="content">
     </div>
     <footer>
     </footer>
