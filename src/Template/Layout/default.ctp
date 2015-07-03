@@ -52,7 +52,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Alumni</a>
+              <b class="navbar-brand" href="#">Alumni Site</b>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,8 +74,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                     <li><a href="#">Arsitektur</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Wisuda</a></li>
-                <li><a href="#">CDC</a></li>
+                <li><a href="#">Career Development Center</a></li>
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracer Studi <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
@@ -134,11 +133,52 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
             <?= $this->Flash->render() ?>
 
             <div class="row">
+              <div class="container col col-xs-4 col-sm-4 col-md-4 col-lg-4" id="content">
+              <!--   Login Form -->  
+                <fieldset>
+                  <p> <b> Login Here </b> </p>
+                  <?php
+                  //            echo $this->Form->input(['options' => $users]);
+                  echo $this->Form->input('nim');
+                  echo $this->Form->input('Password');
+                  ?>
+                  <?= $this->Form->button(__('Login')) ?>   
+                </fieldset>
+              </div>
                 <?= $this->fetch('content') ?>
             </div>
         </div>
-        <footer>
-        </footer>
+
     </div>
+    <footer>
+      <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4" id="footer1">
+                  <p>Universitas Pembangunan Jaya</p>
+                  <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
+                  <p>Telepon : (021)7455555- (021) 29045405 </p>
+              </div>
+              <div class="col-sm-4" id="footer2">
+
+            </div>
+            <div class="col-sm-4" id="footer2">
+                   <a class="btn btn-block btn-social btn-twitter">
+                    <i class="fa fa-twitter"></i> Twitter
+                   </a> 
+                   <a class="btn btn-block btn-social btn-facebook">
+                    <i class="fa fa-twitter"></i> Facebook
+                   </a> 
+                   <a class="btn btn-block btn-social btn-google">
+                    <i class="fa fa-twitter"></i> Goggle+
+                   </a> 
+              </div>
+            </div>
+        </div>
+      </div> 
+      <div id="footer3">
+        Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
+      </div>
+    </footer>
 </body>
 </html>

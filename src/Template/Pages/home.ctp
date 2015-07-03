@@ -82,7 +82,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     <li><a href="#">Arsitektur</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Wisuda</a></li>
                 <li><a href="#">CDC</a></li>
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracer Studi <b class="caret"></b></a>
@@ -138,7 +137,33 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </header>
     <div class="container" id="content">
     </div>
-    <footer>
+    <footer id="bg-footerTop">
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4" id="footer1">
+                    <p>Universitas Pembangunan Jaya</p>
+                    <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
+                    <p>Telepon : (021)7455555- (021) 29045405 </p>
+                </div>
+                <div class="col-sm-4" id="footer2">
+
+              </div>
+              <div class="col-sm-4" id="footer2">
+                     <a class="btn btn-block btn-social btn-twitter">
+                      <i class="fa fa-twitter"></i> Twitter
+                     </a> 
+                     <a class="btn btn-block btn-social btn-facebook">
+                      <i class="fa fa-twitter"></i> Facebook
+                     </a> 
+                     <a class="btn btn-block btn-social btn-google">
+                      <i class="fa fa-twitter"></i> Goggle+
+                     </a> 
+                </div>
+              </div>
+          </div>
+          <div id="footer3">
+            Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
+          </div>
     </footer>
 </body>
 </html>
