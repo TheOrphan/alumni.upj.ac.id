@@ -16,10 +16,12 @@ class Alumnus extends Entity
      */
     protected $_accessible = [
         'id_mhs' => true,
+        'password' => true,
         'no_induk' => true,
         'thn_lulus' => true,
         'nm_tmp_kerja' => true,
         'alamat_kerja' => true,
         'date_create' => true,
+        'role' => true,
     ];
 }

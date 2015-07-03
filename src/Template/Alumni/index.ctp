@@ -10,6 +10,7 @@
         <tr>
             <th><?= $this->Paginator->sort('id_alumni') ?></th>
             <th><?= $this->Paginator->sort('id_mhs') ?></th>
+            <th><?= $this->Paginator->sort('password') ?></th>
             <th><?= $this->Paginator->sort('no_induk') ?></th>
             <th><?= $this->Paginator->sort('thn_lulus') ?></th>
             <th><?= $this->Paginator->sort('nm_tmp_kerja') ?></th>
@@ -23,6 +24,7 @@
         <tr>
             <td><?= $this->Number->format($alumnus->id_alumni) ?></td>
             <td><?= $this->Number->format($alumnus->id_mhs) ?></td>
+            <td><?= h($alumnus->password) ?></td>
             <td><?= $this->Number->format($alumnus->no_induk) ?></td>
             <td><?= h($alumnus->thn_lulus) ?></td>
             <td><?= h($alumnus->nm_tmp_kerja) ?></td>

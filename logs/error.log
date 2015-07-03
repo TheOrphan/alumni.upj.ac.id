@@ -50,3 +50,157 @@ Stack Trace:
 #1 {main}
 
 
+2015-07-03 03:57:10 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\alumni\src\Controller\AlumniController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 03:57:10 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /alumni/alumni
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-03 03:57:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/login
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-03 03:57:56 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\alumni\src\Controller\AlumniController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 03:57:56 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /alumni/alumni
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-03 03:58:12 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\alumni\src\Controller\AlumniController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 03:58:12 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /alumni/alumni/add
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-03 04:00:01 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\alumni\src\Model\Table\AlumniTable.php, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 04:00:01 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /alumni/alumni/add
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-03 04:00:08 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\alumni\src\Controller\AlumniController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 04:00:08 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /alumni/alumni/add
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-03 04:00:13 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\alumni\src\Controller\AlumniController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 04:00:13 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /alumni/alumni/
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-03 04:00:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Alumnus could not be found.
+Exception Attributes: array (
+  'class' => 'Alumnus',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/alumnus/
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-03 04:00:24 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\alumni\src\Controller\AlumniController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 04:00:24 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /alumni/alumni/
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-03 05:59:59 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\alumni\src\Controller\AlumniController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-03 05:59:59 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /alumni/alumni
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

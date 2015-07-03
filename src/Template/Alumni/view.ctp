@@ -11,10 +11,14 @@
     <h2><?= h($alumnus->id_alumni) ?></h2>
     <div class="row">
         <div class="large-5 columns strings">
+            <h6 class="subheader"><?= __('Password') ?></h6>
+            <p><?= h($alumnus->password) ?></p>
             <h6 class="subheader"><?= __('Nm Tmp Kerja') ?></h6>
             <p><?= h($alumnus->nm_tmp_kerja) ?></p>
             <h6 class="subheader"><?= __('Alamat Kerja') ?></h6>
             <p><?= h($alumnus->alamat_kerja) ?></p>
+            <h6 class="subheader"><?= __('Role') ?></h6>
+            <p><?= h($alumnus->role) ?></p>
         </div>
         <div class="large-2 columns numbers end">
             <h6 class="subheader"><?= __('Id Alumni') ?></h6>

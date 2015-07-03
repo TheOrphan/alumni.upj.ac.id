@@ -45,6 +45,10 @@ class AlumniTable extends Table
             ->notEmpty('id_mhs');
             
         $validator
+            ->requirePresence('password', 'create')
+            ->notEmpty('password');
+            
+        $validator
             ->add('no_induk', 'valid', ['rule' => 'numeric'])
             ->requirePresence('no_induk', 'create')
             ->notEmpty('no_induk');
@@ -66,6 +70,9 @@ class AlumniTable extends Table
             ->add('date_create', 'valid', ['rule' => 'datetime'])
             ->requirePresence('date_create', 'create')
             ->notEmpty('date_create');
+            
+        $validator
+            ->allowEmpty('role');
 
         return $validator;
     }

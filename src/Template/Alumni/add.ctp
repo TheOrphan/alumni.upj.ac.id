@@ -10,11 +10,13 @@
         <legend><?= __('Add Alumnus') ?></legend>
         <?php
             echo $this->Form->input('id_mhs');
+            echo $this->Form->input('password');
             echo $this->Form->input('no_induk');
             echo $this->Form->input('thn_lulus');
             echo $this->Form->input('nm_tmp_kerja');
             echo $this->Form->input('alamat_kerja');
             echo $this->Form->input('date_create');
+            echo $this->Form->input('role');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
