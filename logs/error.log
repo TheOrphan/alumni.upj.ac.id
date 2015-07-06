@@ -1817,13 +1817,18 @@ Stack Trace:
 #1 {main}
 
 
+<<<<<<< HEAD
 2015-07-06 03:03:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+=======
+2015-07-06 02:52:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+>>>>>>> origin/master
 Exception Attributes: array (
   'class' => 'Css',
   'plugin' => NULL,
   'prefix' => NULL,
   '_ext' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /github/alumni.upj.ac.id/css/bootstrap-responsive.css
 Stack Trace:
 #0 C:\xampp\htdocs\github\alumni.upj.ac.id\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
@@ -1831,12 +1836,22 @@ Stack Trace:
 
 
 2015-07-06 03:03:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+=======
+Request URL: /alumni/css/bootstrap-responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:52:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+>>>>>>> origin/master
 Exception Attributes: array (
   'class' => 'Css',
   'plugin' => NULL,
   'prefix' => NULL,
   '_ext' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /github/alumni.upj.ac.id/css/font-awesome.min.css
 Stack Trace:
 #0 C:\xampp\htdocs\github\alumni.upj.ac.id\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
@@ -1863,13 +1878,121 @@ Stack Trace:
 2015-07-06 03:28:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Layout could not be found.
 Exception Attributes: array (
   'class' => 'Layout',
+=======
+Request URL: /alumni/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:53:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
   'plugin' => NULL,
   'prefix' => NULL,
   '_ext' => NULL,
 )
+Request URL: /alumni/css/bootstrap-responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:53:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:56:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/css/bootstrap-responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:56:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:56:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/css/bootstrap-responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:56:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:56:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /alumni/css/bootstrap-responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 02:56:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+>>>>>>> origin/master
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+<<<<<<< HEAD
 Request URL: /github/alumni.upj.ac.id/
 Stack Trace:
 #0 C:\xampp\htdocs\github\alumni.upj.ac.id\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+=======
+Request URL: /alumni/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+>>>>>>> origin/master
 #1 {main}
 
 
