@@ -10,6 +10,7 @@
 #bg-footerTop{
 	background-color: #464646;
 }
+
 #footer1{
 	text-align: left;
 	color: white;
@@ -17,20 +18,24 @@
 	padding-bottom: 20px;
 	background-color: #464646;
 }
+
 #footer2{
-	text-align: left;
+	text-align: right;
+	float: right;
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
 	background-color: #464646;
 }
+
 #footer3{
 	text-align: center;
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: red;
+<<<<<<< HEAD
 }
 
 #btn{
@@ -66,8 +71,10 @@
 	text-align: left;
 	border-bottom: 2px solid #c0c0c0;
 	font-size: 30px;
-	text-shadow: 1px 1px 0px #666666;
+	font-family: Helvetica;
   	padding: 0.5em 0.5em 0.5em;
   	margin-bottom: 10px;
 
+=======
+>>>>>>> origin/master
 }
