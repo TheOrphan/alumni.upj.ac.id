@@ -84,9 +84,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                   </ul>
                 </li>
                  <li class="dropdown">
-                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">CDC <b class="caret"></b></a>
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Career Development Center <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
-                    <li><a href="#">About CDC</a></li>
+                    <li><a href="#">About Career Development Center</a></li>
                     <li class="dropdown-submenu">
                       <a href="#">Magang</a>
                       <ul class="dropdown-menu">

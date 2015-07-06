@@ -32,6 +32,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
     <?= $this->Html->css('bootstrap.css') ?>
     <?= $this->Html->css('bootstrap-theme.css') ?>
     <?= $this->Html->css('bootstrap-theme.min.css') ?>
+        <?= $this->Html->css(['bootstrap-responsive','new-meta','bootstrap-social','font-awesome.min']) ?>
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -77,7 +78,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Career Development Center <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
-                    <li><a href="#">About CDC</a></li>
+                    <li><a href="#">About Career Development Center</a></li>
                     <li class="dropdown-submenu">
                       <a href="#">Magang</a>
                       <ul class="dropdown-menu">
@@ -183,35 +184,40 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
         </div>
 
     </div>
-    <footer>
-      <div class="container">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-4" id="footer1">
-                  <p>Universitas Pembangunan Jaya</p>
-                  <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
-                  <p>Telepon : (021)7455555- (021) 29045405 </p>
+
+  <!-- FOOTER -->
+    <footer id="bg-footerTop">      
+        <div class="container">
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4" id="footer1">
+                    <p>Universitas Pembangunan Jaya</p>
+                    <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
+                    <p>Telepon : (021)7455555- (021) 29045405 </p>
+                </div>
+                <div class="col-sm-4" id="footer2">
+
               </div>
               <div class="col-sm-4" id="footer2">
-
-            </div>
-            <div class="col-sm-4" id="footer2">
-                   <a class="btn btn-block btn-social btn-twitter">
-                    <i class="fa fa-twitter"></i> Twitter
-                   </a> 
-                   <a class="btn btn-block btn-social btn-facebook">
-                    <i class="fa fa-twitter"></i> Facebook
-                   </a> 
-                   <a class="btn btn-block btn-social btn-google">
-                    <i class="fa fa-twitter"></i> Goggle+
-                   </a> 
+                     <a class="btn btn-block btn-social btn-twitter">
+                      <i class="fa fa-twitter"></i> Twitter
+                     </a> 
+                     <a class="btn btn-block btn-social btn-facebook">
+                      <i class="fa fa-twitter"></i> Facebook
+                     </a> 
+                     <a class="btn btn-block btn-social btn-google">
+                      <i class="fa fa-twitter"></i> Goggle+
+                     </a> 
+                </div>
               </div>
-            </div>
+          </div>
         </div>
-      </div> 
-      <div id="footer3">
-        Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
-      </div>
+
+     
+          <div id="footer3">
+            Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
+          </div>
     </footer>
+
 </body>
 </html>
