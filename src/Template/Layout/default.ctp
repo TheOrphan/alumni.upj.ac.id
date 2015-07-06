@@ -150,35 +150,40 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
         </div>
 
     </div>
-    <footer>
-      <div class="container">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-4" id="footer1">
-                  <p>Universitas Pembangunan Jaya</p>
-                  <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
-                  <p>Telepon : (021)7455555- (021) 29045405 </p>
+
+  <!-- FOOTER -->
+    <footer id="bg-footerTop">      
+        <div class="container">
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4" id="footer1">
+                    <p>Universitas Pembangunan Jaya</p>
+                    <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
+                    <p>Telepon : (021)7455555- (021) 29045405 </p>
+                </div>
+                <div class="col-sm-4" id="footer2">
+
               </div>
               <div class="col-sm-4" id="footer2">
-
-            </div>
-            <div class="col-sm-4" id="footer2">
-                   <a class="btn btn-block btn-social btn-twitter">
-                    <i class="fa fa-twitter"></i> Twitter
-                   </a> 
-                   <a class="btn btn-block btn-social btn-facebook">
-                    <i class="fa fa-twitter"></i> Facebook
-                   </a> 
-                   <a class="btn btn-block btn-social btn-google">
-                    <i class="fa fa-twitter"></i> Goggle+
-                   </a> 
+                     <a class="btn btn-block btn-social btn-twitter">
+                      <i class="fa fa-twitter"></i> Twitter
+                     </a> 
+                     <a class="btn btn-block btn-social btn-facebook">
+                      <i class="fa fa-twitter"></i> Facebook
+                     </a> 
+                     <a class="btn btn-block btn-social btn-google">
+                      <i class="fa fa-twitter"></i> Goggle+
+                     </a> 
+                </div>
               </div>
-            </div>
+          </div>
         </div>
-      </div> 
-      <div id="footer3">
-        Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
-      </div>
+
+     
+          <div id="footer3">
+            Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
+          </div>
     </footer>
+
 </body>
 </html>
