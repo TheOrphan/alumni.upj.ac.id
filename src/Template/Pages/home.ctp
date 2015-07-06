@@ -61,7 +61,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Alumni</a>
+              <b class="navbar-brand" href="#">Alumni Site</b>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

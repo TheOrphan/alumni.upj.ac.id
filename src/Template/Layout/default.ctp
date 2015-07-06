@@ -74,7 +74,40 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                     <li><a href="#">Arsitektur</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Career Development Center</a></li>
+                <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Career Development Center <b class="caret"></b></a>
+                  <ul class="dropdown-menu" id="menu1">
+                    <li><a href="#">About CDC</a></li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Magang</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Info Magang</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Perusahaan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Prosedur & Ketentuan</a></li>
+                        <li><a href="#">Informasi</a></li>
+                        <li><a href="#">Pendaftaran Perusahaan</a></li>
+                        <li><a href="#">Apply Lowongan Kerja</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Lowongan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Lihat Lowongan</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Pelatihan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Informas Pelatihan</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Scholarship</a></li>
+                  </ul>
+                </li>
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracer Studi <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
