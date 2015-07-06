@@ -2078,13 +2078,47 @@ Stack Trace:
 #1 {main}
 
 
+<<<<<<< HEAD
+2015-07-06 06:17:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Default could not be found.
+Exception Attributes: array (
+  'class' => 'Default',
+=======
 2015-07-06 03:58:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
 Exception Attributes: array (
   'class' => 'Css',
+>>>>>>> origin/master
   'plugin' => NULL,
   'prefix' => NULL,
   '_ext' => NULL,
 )
+<<<<<<< HEAD
+Request URL: /github/alumni.upj.ac.id/default
+Stack Trace:
+#0 C:\xampp\htdocs\github\alumni.upj.ac.id\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-06 06:17:41 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\default.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\default.ctp',
+)
+Request URL: /github/alumni.upj.ac.id/pages/default
+Stack Trace:
+#0 C:\xampp\htdocs\github\alumni.upj.ac.id\vendor\cakephp\cakephp\src\View\View.php(461): Cake\View\View->_getViewFileName('default')
+#1 C:\xampp\htdocs\github\alumni.upj.ac.id\vendor\cakephp\cakephp\src\Controller\Controller.php(582): Cake\View\View->render('default', NULL)
+#2 C:\xampp\htdocs\github\alumni.upj.ac.id\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('default')
+#3 [internal function]: App\Controller\PagesController->display('default')
+#4 C:\xampp\htdocs\github\alumni.upj.ac.id\vendor\cakephp\cakephp\src\Controller\Controller.php(411): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\github\alumni.upj.ac.id\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\github\alumni.upj.ac.id\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 C:\xampp\htdocs\github\alumni.upj.ac.id\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-07-06 06:17:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Default could not be found.
+Exception Attributes: array (
+  'class' => 'Default',
+=======
 Request URL: /alumni/css/new-meta.css
 Stack Trace:
 #0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
@@ -2107,10 +2141,19 @@ Stack Trace:
 2015-07-06 04:01:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
 Exception Attributes: array (
   'class' => 'Css',
+>>>>>>> origin/master
   'plugin' => NULL,
   'prefix' => NULL,
   '_ext' => NULL,
 )
+<<<<<<< HEAD
+Request URL: /github/alumni.upj.ac.id/default
+Stack Trace:
+#0 C:\xampp\htdocs\github\alumni.upj.ac.id\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+=======
 Request URL: /alumni/css/new-meta.css
 Stack Trace:
 #0 C:\xampp\htdocs\alumni\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
@@ -2151,3 +2194,4 @@ Stack Trace:
 #8 {main}
 
 
+>>>>>>> origin/master
