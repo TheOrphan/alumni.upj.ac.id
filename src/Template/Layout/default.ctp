@@ -224,11 +224,13 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
               </div>
           </div>
         </div>
-          <div id="footer3">
-            <div c></div>
-            <div></div>
-            Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
-          </div>
+
+
+        <div class="col col-xs-1 col-sm-1 col-md-1 col-lg-1" id="footer3" style="background-color:green; padding-bottom: 30px;"></div>
+        <div class="col col-xs-2 col-sm-2 col-md-2 col-lg-2" id="footer3" style="background-color:darkblue; padding-bottom: 30px;"></div>
+        <div class="col col-xs-9 col-sm-9 col-md-9 col-lg-9" id="footer3" style="background-color:darkred; padding-bottom: 30px;"></div>
+        <center><div  style="position:absolute; margin:auto; padding:0px auto" id="footer3">Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved</div></center>
+              
     </footer>
 
 </body>
