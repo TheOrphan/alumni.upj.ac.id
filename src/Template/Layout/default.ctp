@@ -182,7 +182,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                     <button type="submit" class="btn btn-default form-control">Login</button>
                   </div>
                   <div>
-                  <button type="submit" class="btn btn-default form-control">Register</button>
+                    <a href="#"><button type="" class="btn btn-default form-control">Register</button></a>
                   </div>
                 </form> 
               </div>
