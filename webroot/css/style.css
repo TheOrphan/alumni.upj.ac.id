@@ -7,23 +7,3 @@
 	width: 120px;
 }
 
-#btn{
-	position: relative;
-	float: left;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0px;
-	text-shadow: 1px 1px 0px #666666;
-	font-family: Courier New;
-	color: #ffffff;
-	font-size: 19px;
-	background: #3498db;
-	padding: 5px 40px 5px 70px;
-	margin: 5px 0px 5px 0px;
-	text-decoration: none;
-}
-
-#btn:hover {
-  background: #3cb0fd;
-  text-decoration: none;
-}
