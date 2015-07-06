@@ -40,6 +40,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->css('bootstrap.min.css') ?>
     <?= $this->Html->css('bootstrap-theme.css') ?>
     <?= $this->Html->css('bootstrap-theme.min.css') ?>
+    <?= $this->Html->css(['bootstrap-responsive','new-meta','bootstrap-social','font-awesome.min']) ?>
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -82,7 +83,40 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     <li><a href="#">Arsitektur</a></li>
                   </ul>
                 </li>
-                <li><a href="#">CDC</a></li>
+                 <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">CDC <b class="caret"></b></a>
+                  <ul class="dropdown-menu" id="menu1">
+                    <li><a href="#">About CDC</a></li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Magang</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Info Magang</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Perusahaan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Prosedur & Ketentuan</a></li>
+                        <li><a href="#">Informasi</a></li>
+                        <li><a href="#">Pendaftaran Perusahaan</a></li>
+                        <li><a href="#">Apply Lowongan Kerja</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Lowongan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Lihat Lowongan</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="#">Pelatihan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Informas Pelatihan</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Scholarship</a></li>
+                  </ul>
+                </li>
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracer Studi <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
@@ -135,9 +169,16 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
           </div><!-- /.container-fluid -->
         </nav>
     </header>
-    <div class="container" id="content">
+<!-- Kontent -->
+    <div class="container">
+   
     </div>
-    <footer id="bg-footerTop">
+
+
+
+<!-- FOOTER -->
+    <footer id="bg-footerTop">      
+        <div class="container">
           <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-4" id="footer1">
@@ -161,9 +202,16 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 </div>
               </div>
           </div>
+        </div>
+
+     
           <div id="footer3">
             Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
           </div>
     </footer>
+
+
+
+ 
 </body>
 </html>
