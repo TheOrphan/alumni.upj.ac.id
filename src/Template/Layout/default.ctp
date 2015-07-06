@@ -77,7 +77,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Career Development Center <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
-                    <li><a href="#">About Career Development Center</a></li>
+                    <li><?= $this->Html->link('About Career Development Center','/pages/about_cdc') ?></li>
                     <li class="dropdown-submenu">
                       <a href="#">Magang</a>
                       <ul class="dropdown-menu">
