@@ -164,19 +164,29 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
             <?= $this->Flash->render() ?>
 
             <div class="row">
-              <div class="container col col-xs-4 col-sm-4 col-md-4 col-lg-4" id="content">
-              <!--   Login Form -->  
-                <fieldset>
-                  <p> <b> Login Here </b> </p>
-                  <?php
-                  //            echo $this->Form->input(['options' => $users]);
-                  echo $this->Form->input('nim');
-                  echo $this->Form->input('Password');
-                  ?>
-                  <?= $this->Form->button(__('Login')) ?>   
-                </fieldset>
+              <div class="container col col-xs-12 col-sm-3 col-md-2 col-lg-2" id="content" style="border-right:1px solid; padding:10px 20px;">
+              <!--   Login Form -->
+                <form role="form">
+                  <div class="form-group">
+                    <label for="email">Username:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd">
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                  </div>
+                  <div style="margin-bottom:5px">
+                    <button type="submit" class="btn btn-default form-control">Login</button>
+                  </div>
+                  <div>
+                  <button type="submit" class="btn btn-default form-control">Register</button>
+                  </div>
+                </form> 
               </div>
-               <div class="container col col-xs-8 col-sm-8 col-md-8 col-lg-8" id="content"> 
+               <div class="container col col-xs-12 col-sm-9 col-md-10 col-lg-10" id="content"> 
             <?= $this->fetch('content') ?>
             </div>
             </div>
@@ -214,8 +224,6 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
               </div>
           </div>
         </div>
-
-     
           <div id="footer3">
             <div c></div>
             <div></div>
