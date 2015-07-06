@@ -1,5 +1,4 @@
-<?= $this->fetch('home') ?>
-<div class="container col col-xs-8 col-sm-8 col-md-8 col-lg-8" id="content">
+
   <div class="table-responsive">
     <table class="table table-bordered">
       <tr>
@@ -31,5 +30,4 @@
         <td>ABCD@alumni.upj.ac.id</td>
       </tr>
     </table>
-  </div>
 </div>

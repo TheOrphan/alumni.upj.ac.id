@@ -62,7 +62,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Program Studi <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Akutansi</a></li>
+                    <li><?= $this->Html->link('Akutansi','/pages/pengurus_iluni_prodi') ?></li>
                     <li><a href="#">Management</a></li>
                     <li><a href="#">Ilmu Komunikasi</a></li>
                     <li><a href="#">Psikologi</a></li>
@@ -160,6 +160,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
           </div><!-- /.container-fluid -->
         </nav>
     </header>
+
     <div class="container" id="container">
 
         <div id="content">
@@ -178,7 +179,9 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                   <?= $this->Form->button(__('Login')) ?>   
                 </fieldset>
               </div>
-                <?= $this->fetch('content') ?>
+               <div class="container col col-xs-8 col-sm-8 col-md-8 col-lg-8" id="content"> 
+            <?= $this->fetch('content') ?>
+            </div>
             </div>
         </div>
 
