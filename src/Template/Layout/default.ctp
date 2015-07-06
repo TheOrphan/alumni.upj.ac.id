@@ -28,10 +28,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
     <?= $this->Html->meta('icon') ?>
-    <?= $this->Html->css('style.css') ?>
-    <?= $this->Html->css('bootstrap.css') ?>
-    <?= $this->Html->css('bootstrap-theme.css') ?>
-    <?= $this->Html->css('bootstrap-theme.min.css') ?>
+    <?= $this->Html->css(['style.css','bootstrap.min.css','bootstrap.css','bootstrap-theme.css','bootstrap-theme.min.css']) ?>
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -39,7 +36,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container">          
             <?= $this->Html->image('logo2.png') ?>
         </div>
         <nav class="navbar navbar-inverse navbar-static-top">
@@ -197,19 +194,22 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                     <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
                     <p>Telepon : (021)7455555- (021) 29045405 </p>
                 </div>
-                <div class="col-sm-4" id="footer2">
-
-              </div>
-              <div class="col-sm-4" id="footer2">
-                     <a class="btn btn-block btn-social btn-twitter">
-                      <i class="fa fa-twitter"></i> Twitter
-                     </a> 
-                     <a class="btn btn-block btn-social btn-facebook">
-                      <i class="fa fa-twitter"></i> Facebook
-                     </a> 
-                     <a class="btn btn-block btn-social btn-google">
-                      <i class="fa fa-twitter"></i> Goggle+
-                     </a> 
+                <div class="col-sm-4 col-sm-offset-4" id="footer2">
+                  <a href="">
+                    <?= $this->Html->image('f.png') ?>
+                  </a>
+                  <a href="">
+                    <?= $this->Html->image('t.png') ?>
+                  </a>
+                  <a href="">
+                    <?= $this->Html->image('g.png') ?>
+                  </a>
+                  <a href="">
+                    <?= $this->Html->image('l.png') ?>
+                  </a>
+                  <a href="">
+                    <?= $this->Html->image('p.png') ?>
+                  </a>
                 </div>
               </div>
           </div>

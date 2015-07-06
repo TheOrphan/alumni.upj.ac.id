@@ -10,6 +10,7 @@
 #bg-footerTop{
 	background-color: #464646;
 }
+
 #footer1{
 	text-align: left;
 	color: white;
@@ -17,39 +18,21 @@
 	padding-bottom: 20px;
 	background-color: #464646;
 }
+
 #footer2{
-	text-align: left;
+	text-align: right;
+	float: right;
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
 	background-color: #464646;
 }
+
 #footer3{
 	text-align: center;
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: red;
-}
-
-#btn{
-	position: relative;
-	float: left;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0px;
-	text-shadow: 1px 1px 0px #666666;
-	font-family: Courier New;
-	color: #ffffff;
-	font-size: 19px;
-	background: #3498db;
-	padding: 5px 40px 5px 70px;
-	margin: 5px 0px 5px 0px;
-	text-decoration: none;
-}
-
-#btn:hover {
-  background: #3cb0fd;
-  text-decoration: none;
 }
