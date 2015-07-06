@@ -189,12 +189,12 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
         <div class="container">
           <div class="container-fluid">
               <div class="row">
-                <div class="col-sm-4" id="footer1">
+                <div class="col-md-4" id="footer1">
                     <p>Universitas Pembangunan Jaya</p>
                     <p>Jl. Boulevard Bintaro, Bintaro Jaya Sektor 7 Tangerang Selatan, Banten, Indonesia.</p> 
                     <p>Telepon : (021)7455555- (021) 29045405 </p>
                 </div>
-                <div class="col-sm-4 col-sm-offset-4" id="footer2">
+                <div class="col-md-4 col-md-offset-4" id="footer2">
                   <a href="">
                     <?= $this->Html->image('f.png') ?>
                   </a>
@@ -217,6 +217,8 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
 
      
           <div id="footer3">
+            <div c></div>
+            <div></div>
             Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved  
           </div>
     </footer>
