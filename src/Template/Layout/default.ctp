@@ -59,21 +59,6 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
               <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Program Studi <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><?= $this->Html->link('Akutansi','/pages/pengurus_iluni_prodi') ?></li>
-                    <li><a href="#">Management</a></li>
-                    <li><a href="#">Ilmu Komunikasi</a></li>
-                    <li><a href="#">Psikologi</a></li>
-                    <li><a href="#">Desain Komunikasi Visual</a></li>
-                    <li><a href="#">Desain Produk</a></li>
-                    <li><a href="#">Teknik Informatika</a></li>
-                    <li><a href="#">Sistem Informasi</a></li>
-                    <li><a href="#">Teknik Sipil</a></li>
-                    <li><a href="#">Arsitektur</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Career Development Center <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
                     <li><?= $this->Html->link('About Career Development Center','/pages/about_cdc') ?></li>
@@ -111,31 +96,19 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Acara<span class="caret"></span></a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kepengurusan<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Berita Universitas</a></li>
-                    <li><a href="#">Berita Program Studi</a></li>
-                    <li><a href="#">Kalender</a></li>
+                    <li><a href="#">Iluni Universitas</a></li>
+                    <li><a href="#">Iluni Program Studi</a></li>                    
+                    <li><a href="#">Alumni dan Career</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Iluni<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Pengurus</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tentang Kami <span class="caret"></span></a>
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dana Abadi <span class="caret"></span></a>
                   <ul class="dropdown-menu" id="menu1">
-                    <li><a href="#">Pengurus</a></li>
-                    <li class="dropdown-submenu">
-                      <a href="#">Dana Abadi</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Bentuk Partisipasi</a></li>
-                        <li><a href="#">Prosedur Partisipasi</a></li>
-                        <li><a href="#">Manfaat</a></li>
-                      </ul>
-                    </li>
+                    <li><a href="#">Bentuk Partisipasi</a></li>
+                    <li><a href="#">Prosedur Partisipasi</a></li>
+                    <li><a href="#">Manfaat</a></li>
                   </ul>
                 </li>
               </ul>
