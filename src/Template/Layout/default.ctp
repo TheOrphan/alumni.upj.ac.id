@@ -84,7 +84,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                     <li class="dropdown-submenu">
                       <a href="#">Perusahaan</a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">Prosedur & Ketentuan</a></li>
+                        <li><?= $this->Html->link('Prosedur & Ketentuan','/pages/prosedur_perusahaan') ?></li>
                         <li><a href="#">Informasi</a></li>
                         <li><a href="#">Pendaftaran Perusahaan</a></li>
                         <li><a href="#">Apply Lowongan Kerja</a></li>
@@ -226,10 +226,16 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
         </div>
 
 
-        <div class="col col-xs-1 col-sm-1 col-md-1 col-lg-1" id="footer3" style="background-color:green; padding-bottom: 30px;"></div>
-        <div class="col col-xs-2 col-sm-2 col-md-2 col-lg-2" id="footer3" style="background-color:darkblue; padding-bottom: 30px;"></div>
-        <div class="col col-xs-9 col-sm-9 col-md-9 col-lg-9" id="footer3" style="background-color:darkred; padding-bottom: 30px;"></div>
-        <center><div  style="position:absolute; margin:auto; padding:0px auto" id="footer3">Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved</div></center>
+         <div class="row">
+                <div class="col-md-1" id="footer3" style="background-color: green; height:35px"></div>
+                <div class="col-md-2" id="footer3" style="background-color: blue; height:35px"></div>
+                <div class="col-md-9" id="footer3" style="background-color: red; height:35px;">
+                <div style="margin-left:10%; margin-top:7px;"> 
+                <b>Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved</b></div>
+                </div>
+          </div>
+
+
               
     </footer>
 
