@@ -36,8 +36,10 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
 </head>
 <body>
     <header>
-        <div class="container">          
+        <div class="container">
+          <div class="col col-xs-12 col-sm-12 col-md-6 col-lg-6">          
             <?= $this->Html->image('logo2.png') ?>
+          </div> 
         </div>
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
