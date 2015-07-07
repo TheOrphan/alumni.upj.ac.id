@@ -75,12 +75,8 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Career Development Center <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
                     <li><?= $this->Html->link('About Career Development Center','/pages/about_cdc') ?></li>
-                    <li class="dropdown-submenu">
-                      <a href="#">Magang</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Info Magang</a></li>
-                      </ul>
-                    </li>
+                    <li><a href="#">Info Magang</a></li>
+                    <li><a href="#">Lowongan Kerja</a></li>
                     <li class="dropdown-submenu">
                       <a href="#">Perusahaan</a>
                       <ul class="dropdown-menu">
@@ -90,17 +86,9 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                         <li><a href="#">Apply Lowongan Kerja</a></li>
                       </ul>
                     </li>
-                    <li class="dropdown-submenu">
-                      <a href="#">Lowongan</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Lihat Lowongan</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a href="#">Pelatihan</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Informas Pelatihan</a></li>
-                      </ul>
+                    <li>
+                      <a href="#">Informasi Pelatihan</a>
+                     
                     </li>
                     <li><a href="#">Scholarship</a></li>
                   </ul>
@@ -181,9 +169,6 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                   <div style="margin-bottom:5px">
                     <button type="submit" class="btn btn-default form-control">Login</button>
                   </div>
-                  <div>
-                    <a href="#"><button type="" class="btn btn-default form-control">Register</button></a>
-                  </div>
                 </form> 
               </div>
                <div class="container col col-xs-12 col-sm-9 col-md-10 col-lg-10" id="content"> 
@@ -226,15 +211,14 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
         </div>
 
 
-         <div class="row">
+        
                 <div class="col-md-1" id="footer3" style="background-color: green; height:35px"></div>
                 <div class="col-md-2" id="footer3" style="background-color: blue; height:35px"></div>
                 <div class="col-md-9" id="footer3" style="background-color: red; height:35px;">
-                <div style="margin-left:10%; margin-top:7px;"> 
+                <div style="margin-left:0; margin-top:7px;"> 
                 <b>Copyright 2014 - Universitas Pembangunan Jaya | All Rights Reserved</b></div>
                 </div>
-          </div>
-
+        
 
               
     </footer>
