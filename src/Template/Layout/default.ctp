@@ -68,9 +68,8 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                       <a href="#">Perusahaan</a>
                       <ul class="dropdown-menu">
                         <li><?= $this->Html->link('Prosedur & Ketentuan','/pages/prosedur_perusahaan') ?></li>
-                        <li><a href="#">Informasi</a></li>
-                        <li><a href="#">Pendaftaran Perusahaan</a></li>
-                        <li><a href="#">Apply Lowongan Kerja</a></li>
+                        <li><?= $this->Html->link('Informasi Biaya','/pages/biaya_perusahaan') ?></li>
+                        <li><?= $this->Html->link('Pendaftaran Perusahaan','/pages/pendaftaran_perusahaan') ?></li>
                       </ul>
                     </li>
                     <li>
