@@ -228,7 +228,7 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
         </div>
 
 
-         <div class="row">
+         <div>
                 <div class="col-md-1" id="footer3" style="background-color: green; height:35px"></div>
                 <div class="col-md-2" id="footer3" style="background-color: blue; height:35px"></div>
                 <div class="col-md-9" id="footer3" style="background-color: red; height:35px;">
