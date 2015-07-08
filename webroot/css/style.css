@@ -1,0 +1,53 @@
+#searchbtn{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#searchbar{
+	width: 120px;
+} 
+
+#bg-footerTop{
+	background-color: #464646;
+	text
+}
+
+#footer1{
+	text-align: left;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #464646;
+}
+
+#footer2{
+	text-align: right;
+	float: right;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: #464646;
+}
+
+#footer3{
+	font-size: 14px; 
+	color: white;
+}
+
+#about_cdc{
+	/*//border: 1px solid #c0c0c0;*/
+	text-align: justify;
+	font-size: 20px;	
+  	padding: 1em 0.9em 0.9em;
+  	margin-bottom: 20px;
+}
+
+#about_cdc_title{
+	text-align: left;
+	border-bottom: 2px solid #c0c0c0;
+	font-size: 30px;
+	font-family: Helvetica;
+  	padding: 0.5em 0.5em 0.5em;
+  	margin-bottom: 10px;
+}
