@@ -82,16 +82,15 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tracer Studi <b class="caret"></b></a>
                   <ul class="dropdown-menu" id="menu1">
-                    <li><a href="#">latar belakang</a></li>
+                    <li><?= $this->Html->link('Latar Belakang','/pages/latar_belakang') ?></li>
                     <li><a href="#">Hasil Tracer</a></li>
                     <li class="dropdown-submenu">
-                      <a href="#">kuesioner</a>
+                      <a href="#">Kuesioner</a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">kumpulan</a></li>
-                        <li><a href="#">pengisian</a></li>
+                        <li><a href="#">Kumpulan</a></li>
+                        <li><a href="#">Pengisian</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">kontak</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -99,21 +98,23 @@ $cakeDescription = 'Universitas Pembangunan Jaya Alumni Association';
                   <ul class="dropdown-menu">
                     <li><a href="#">Iluni Universitas</a></li>
                     <li><a href="#">Iluni Program Studi</a></li>                    
-                    <li><a href="#">Alumni dan Career</a></li>
+                    <li><a href="#">Alumni dan Career</a></li>               
+                    <li><a href="#">Tracer Study</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dana Abadi <span class="caret"></span></a>
                   <ul class="dropdown-menu" id="menu1">
-                    <li><a href="#">Bentuk Partisipasi</a></li>
-                    <li><a href="#">Prosedur Partisipasi</a></li>
-                    <li><a href="#">Manfaat</a></li>
+                    <li><?= $this->Html->link('Tentang Dana Abadi','/pages/tentang_dana_abadi') ?></li>
+                    <li><?= $this->Html->link('Bentuk Partisipasi','/pages/bentuk_partisipasi') ?></li>
+                    <li><?= $this->Html->link('Prosedur Partisipasi','/pages/prosedur_partisipasi') ?></li>
+                    <li><?= $this->Html->link('Manfaat','/pages/manfaat') ?></li>
                   </ul>
                 </li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Email</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><?= $this->Html->link('FAQ','/pages/faq') ?></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
